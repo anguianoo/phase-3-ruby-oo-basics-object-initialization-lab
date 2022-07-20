@@ -3,8 +3,6 @@
 # That argument should be stored within a @name instance variable.
 
 class Person
- attr_reader :name
- 
  def initialize(name)
   @name = name
  end
